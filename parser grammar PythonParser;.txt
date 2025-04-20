@@ -1,0 +1,27 @@
+parser grammar PythonParser;
+
+options { tokenVocab=PythonLexer; }
+
+// Entrada principal do código
+code: stat* EOF ;
+
+// Uma instrução é uma expressão seguida de nova linha
+stat: expr '\n' ;
+
+// Expressões válidas
+expr
+: ID #identificadorExpr
+| NUMBER #numeroExpr
+| operacoesComExpressoes #operacaoExpr
+| expressoesEntreParenteses #parentesesExpr
+;
+
+// Expressões com operadores binários
+operacoesComExpressoes
+: expr (PLUS | MINUS | STAR | SLASH | PERCENT) expr
+;
+
+// Expressões agrupadas entre parênteses
+expressoesEntreParenteses
+: LPAREN expr RPAREN
+;
