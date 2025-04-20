@@ -1,0 +1,85 @@
+Operadores Aritméticos: 
+
+• +: Adição
+• -: Subtração
+• \*: Multiplicação
+• /: Divisão (retorna float)
+• //: Divisão inteira (retorna int)
+• \%: Módulo (resto da divisão)
+• \*\*:** Exponenciação 
+
+Operadores Relacionais: 
+
+• ==: Igual a
+• !=: Diferente de
+• \>: Maior que
+• \<: Menor que
+• \>=: Maior ou igual a
+• \<=: Menor ou igual a 
+
+Operadores Booleanos: 
+
+• and: E lógico
+• or: OU lógico
+• not: NÃO lógico 
+
+Simbols de Atribuição: 
+
+• =: Atribuição de valor a uma variável 
+
+Simbolos de tipos de dados: 
+
+• int: Inteiro (ex: 1, 2, 3)
+• float: Número com ponto flutuante (ex: 3.14)
+• str: String (ex: "Olá, mundo!")
+• bool: Booleano (True ou False)
+• list: Lista (ex: \[1, 2, 3])
+• dict: Dicionário (ex: {\`chave\`: \`valor\`, \`outra\_chave\`: \`outro\_valor\`) 
+
+Símbolo de início de bloco: 
+
+• : (dois pontos) indica o início de um bloco de código (ex: if 1 > 0:) 
+
+Palavras-chave (para blocos de código e controle de fluxo): 
+
+• if: Condição
+• else: Caso contrário
+• elif: Caso contrário, se
+• for: Laço de repetição (para cada)
+• while: Laço de repetição (enquanto)
+• def: Definição de função
+• class: Definição de classe
+• try: Bloco de tratamento de exceções
+• except: Bloco de tratamento de exceções
+• raise: Lança uma exceção
+• pass: (faz nada)
+• break: Sai de um laço
+• continue: Continua para a próxima iteração do laço 
+
+Demais palavras-chave (para importação, etc.): 
+
+• import: Importa um módulo
+• from: Importa uma parte específica de um módulo
+• in: Verifica se um valor está em uma sequência
+• as: Define um alias para um nome de importação 
+
+Funções Built-in: 
+
+• print(): Exibe texto na tela
+• len(): Retorna o comprimento de uma sequência
+• type(): Retorna o tipo de um objeto
+• range(): Gera uma sequência de números
+• input(): Recebe entrada do usuário
+• chr(): Retorna o caractere correspondente a um código Unicode
+• ord(): Retorna o código Unicode de um caractere
+• help(): Exibe ajuda sobre um objeto
+• dir(): Retorna uma lista de atributos e métodos de um objeto
+• open(): Abre um arquivo
+• list(): Cria uma lista a partir de um iterável
+• tuple(): Cria uma tupla a partir de um iterável
+• set(): Cria um conjunto a partir de um iterável
+• dict(): Cria um dicionário
+• zip(): Junta iteráveis
+• enumerate(): Retorna um objeto enumerado (índice e valor)
+• sorted(): Ordena uma lista
+• filter(): Filtra uma lista 
